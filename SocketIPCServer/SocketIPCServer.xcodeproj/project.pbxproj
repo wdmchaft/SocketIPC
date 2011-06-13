@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32031ACE136AD62300DCE7FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32031ACD136AD62300DCE7FD /* UIKit.framework */; };
+		32031AD0136AD62300DCE7FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32031ACF136AD62300DCE7FD /* Foundation.framework */; };
+		32031AD2136AD62300DCE7FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32031AD1136AD62300DCE7FD /* CoreGraphics.framework */; };
+		32031AD8136AD62400DCE7FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32031AD6136AD62400DCE7FD /* InfoPlist.strings */; };
+		32031ADB136AD62400DCE7FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32031ADA136AD62400DCE7FD /* main.m */; };
+		32031ADE136AD62400DCE7FD /* SocketIPCServerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32031ADD136AD62400DCE7FD /* SocketIPCServerAppDelegate.m */; };
+		32031AE1136AD62400DCE7FD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32031ADF136AD62400DCE7FD /* MainWindow.xib */; };
+		32031AE4136AD62400DCE7FD /* SocketIPCServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32031AE3136AD62400DCE7FD /* SocketIPCServerViewController.m */; };
+		32031AE7136AD62400DCE7FD /* SocketIPCServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32031AE5136AD62400DCE7FD /* SocketIPCServerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32031AC9136AD62300DCE7FD /* SocketIPCServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketIPCServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32031ACD136AD62300DCE7FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32031ACF136AD62300DCE7FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32031AD1136AD62300DCE7FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32031AD5136AD62400DCE7FD /* SocketIPCServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocketIPCServer-Info.plist"; sourceTree = "<group>"; };
+		32031AD7136AD62400DCE7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32031AD9136AD62400DCE7FD /* SocketIPCServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketIPCServer-Prefix.pch"; sourceTree = "<group>"; };
+		32031ADA136AD62400DCE7FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32031ADC136AD62400DCE7FD /* SocketIPCServerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIPCServerAppDelegate.h; sourceTree = "<group>"; };
+		32031ADD136AD62400DCE7FD /* SocketIPCServerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketIPCServerAppDelegate.m; sourceTree = "<group>"; };
+		32031AE0136AD62400DCE7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		32031AE2136AD62400DCE7FD /* SocketIPCServerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIPCServerViewController.h; sourceTree = "<group>"; };
+		32031AE3136AD62400DCE7FD /* SocketIPCServerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketIPCServerViewController.m; sourceTree = "<group>"; };
+		32031AE6136AD62400DCE7FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocketIPCServerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32031AC6136AD62300DCE7FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32031ACE136AD62300DCE7FD /* UIKit.framework in Frameworks */,
+				32031AD0136AD62300DCE7FD /* Foundation.framework in Frameworks */,
+				32031AD2136AD62300DCE7FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32031ABE136AD62300DCE7FD = {
+			isa = PBXGroup;
+			children = (
+				32031AD3136AD62300DCE7FD /* SocketIPCServer */,
+				32031ACC136AD62300DCE7FD /* Frameworks */,
+				32031ACA136AD62300DCE7FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32031ACA136AD62300DCE7FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32031AC9136AD62300DCE7FD /* SocketIPCServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32031ACC136AD62300DCE7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32031ACD136AD62300DCE7FD /* UIKit.framework */,
+				32031ACF136AD62300DCE7FD /* Foundation.framework */,
+				32031AD1136AD62300DCE7FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32031AD3136AD62300DCE7FD /* SocketIPCServer */ = {
+			isa = PBXGroup;
+			children = (
+				32031ADC136AD62400DCE7FD /* SocketIPCServerAppDelegate.h */,
+				32031ADD136AD62400DCE7FD /* SocketIPCServerAppDelegate.m */,
+				32031ADF136AD62400DCE7FD /* MainWindow.xib */,
+				32031AE2136AD62400DCE7FD /* SocketIPCServerViewController.h */,
+				32031AE3136AD62400DCE7FD /* SocketIPCServerViewController.m */,
+				32031AE5136AD62400DCE7FD /* SocketIPCServerViewController.xib */,
+				32031AD4136AD62400DCE7FD /* Supporting Files */,
+			);
+			path = SocketIPCServer;
+			sourceTree = "<group>";
+		};
+		32031AD4136AD62400DCE7FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32031AD5136AD62400DCE7FD /* SocketIPCServer-Info.plist */,
+				32031AD6136AD62400DCE7FD /* InfoPlist.strings */,
+				32031AD9136AD62400DCE7FD /* SocketIPCServer-Prefix.pch */,
+				32031ADA136AD62400DCE7FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32031AC8136AD62300DCE7FD /* SocketIPCServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32031AEA136AD62400DCE7FD /* Build configuration list for PBXNativeTarget "SocketIPCServer" */;
+			buildPhases = (
+				32031AC5136AD62300DCE7FD /* Sources */,
+				32031AC6136AD62300DCE7FD /* Frameworks */,
+				32031AC7136AD62300DCE7FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketIPCServer;
+			productName = SocketIPCServer;
+			productReference = 32031AC9136AD62300DCE7FD /* SocketIPCServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32031AC0136AD62300DCE7FD /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 32031AC3136AD62300DCE7FD /* Build configuration list for PBXProject "SocketIPCServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32031ABE136AD62300DCE7FD;
+			productRefGroup = 32031ACA136AD62300DCE7FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32031AC8136AD62300DCE7FD /* SocketIPCServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32031AC7136AD62300DCE7FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32031AD8136AD62400DCE7FD /* InfoPlist.strings in Resources */,
+				32031AE1136AD62400DCE7FD /* MainWindow.xib in Resources */,
+				32031AE7136AD62400DCE7FD /* SocketIPCServerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32031AC5136AD62300DCE7FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32031ADB136AD62400DCE7FD /* main.m in Sources */,
+				32031ADE136AD62400DCE7FD /* SocketIPCServerAppDelegate.m in Sources */,
+				32031AE4136AD62400DCE7FD /* SocketIPCServerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32031AD6136AD62400DCE7FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32031AD7136AD62400DCE7FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32031ADF136AD62400DCE7FD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32031AE0136AD62400DCE7FD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		32031AE5136AD62400DCE7FD /* SocketIPCServerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32031AE6136AD62400DCE7FD /* en */,
+			);
+			name = SocketIPCServerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32031AE8136AD62400DCE7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32031AE9136AD62400DCE7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		32031AEB136AD62400DCE7FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketIPCServer/SocketIPCServer-Prefix.pch";
+				INFOPLIST_FILE = "SocketIPCServer/SocketIPCServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32031AEC136AD62400DCE7FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocketIPCServer/SocketIPCServer-Prefix.pch";
+				INFOPLIST_FILE = "SocketIPCServer/SocketIPCServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32031AC3136AD62300DCE7FD /* Build configuration list for PBXProject "SocketIPCServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32031AE8136AD62400DCE7FD /* Debug */,
+				32031AE9136AD62400DCE7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32031AEA136AD62400DCE7FD /* Build configuration list for PBXNativeTarget "SocketIPCServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32031AEB136AD62400DCE7FD /* Debug */,
+				32031AEC136AD62400DCE7FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32031AC0136AD62300DCE7FD /* Project object */;
+}
